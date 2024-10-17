@@ -20,7 +20,7 @@ const ProductDetailPage = () => {
         setOpen(true);
     };
 
-    const handleClosek = (reason) => {
+    const handleClosek = (reason,event) => {
         if (reason === 'clickaway') {
             return;
         }
