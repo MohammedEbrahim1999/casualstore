@@ -123,7 +123,7 @@ const ProductDetailPage = () => {
                         <Box sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
                             <Typography variant="body2" sx={{ ml: 1, display: "flex", alignItems: "center", gap: 2 }}>
                                 <Rating value={product.rating} disabled /> 
-                                <Typography variant='p' fontSize={"18px"}>{product.rating}</Typography>
+                                <Typography fontSize={"18px"}>{product.rating}</Typography>
                             </Typography>
                         </Box>
 
