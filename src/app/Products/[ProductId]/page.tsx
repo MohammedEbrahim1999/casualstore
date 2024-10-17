@@ -28,6 +28,7 @@ const ProductDetailPage = () => {
     };
 
     const action = (
+        <>
             <IconButton
                 size="small"
                 aria-label="close"
@@ -36,6 +37,7 @@ const ProductDetailPage = () => {
             >
                 <CloseIcon fontSize="small" />
             </IconButton>
+            </>
     );
 
     const [product, setProduct] = useState(null);
