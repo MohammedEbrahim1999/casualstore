@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'; // Use Next.js router
 import products from '../Products.js';
 import { Box, Container, Grid, Typography, Button } from '@mui/material';
 import Rating from '@mui/material/Rating';
-import Random from './Component/random.jsx';
+import Random from './Component/Random.jsx';
 import { useContext } from 'react';
 import { CountContext } from '../../Context/CartContext.js';
 import Snackbar from '@mui/material/Snackbar';
