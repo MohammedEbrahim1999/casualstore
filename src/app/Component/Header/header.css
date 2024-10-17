@@ -1,0 +1,6 @@
+div.head{
+    color: red;
+}
+.custom:first-of-type{
+    color: #0f0 !important;
+}
