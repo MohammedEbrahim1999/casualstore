@@ -33,8 +33,9 @@ const ProductDetailPage = () => {
                 size="small"
                 aria-label="close"
                 color="inherit"
-                onClick={handleClosek}
-            >
+onClick={(event) => {
+                    handleClosek
+                }}               >
                 <CloseIcon fontSize="small" />
             </IconButton>
             </>
