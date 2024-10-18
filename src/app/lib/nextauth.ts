@@ -5,16 +5,16 @@ import { AuthOptions } from "next-auth";
 export const authOptions: AuthOptions = {
   providers: [
    GoogleProvider({
-      clientId: '204376297079-ikodeta4ndal3dijq3acvqpvivnho2r1.apps.googleusercontent.com' as string,
-      clientSecret: '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' as string,
+      clientId: process.env.GOOGLE_CLIENT_ID as string,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
     }),
     FacebookProvider({
-      clientId: '1940976796381864',
-      clientSecret: '8b8077dbec83eb1541e960ae945564d9',
+      clientId: process.env.FACEBOOK_CLIENT_ID,
+      clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
     }),
     InstagramProvider({
-      clientId: '524128893740986',
-      clientSecret: 'f207dee930c2b04b3fb80900210d557a',
+      clientId: process.env.INSTAGRAM_CLIENT_ID,
+      clientSecret: process.env.INSTAGRAM_CLIENT_SECRET,
     }),
   ],
   session: {
